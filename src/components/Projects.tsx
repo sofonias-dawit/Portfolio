@@ -23,7 +23,7 @@ const Projects = () => {
       description: 'A simple hospital management app for handling patient records, doctor schedules, and appointments.',
       detailedDescription: 'A dynamic web app built with PHP to simplify hospital workflows. It helps manage patients, doctors, and appointments, featuring secure logins, role-based access, and user-friendly dashboards for smooth operations.',
       image: project2Image,
-      demoLink: '#',
+      demoLink: 'https://amuhospital.42web.io/',
       codeLink: 'https://github.com/sofonias-dawit/Hospital-Patient-Management-System',
       tags: ['PHP', 'MySQL', 'Hospital Management'],
       featured: false,
