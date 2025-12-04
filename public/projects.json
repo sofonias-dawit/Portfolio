@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "My personal portfolio built with React.js, showing my projects and skills in a clean, easy-to-navigate design.",
+    "detailedDescription": "A modern, responsive portfolio featuring smooth animations, dark/light theme toggle, and optimized performance. Built with React.js and Tailwind CSS to create an engaging user experience.",
+    "image": "/src/assets/project1.jpg",
+    "demoLink": "https://sofonias.netlify.app/",
+    "codeLink": "https://github.com/sofonias-dawit/My-portfolio",
+    "tags": ["React.js", "Tailwind CSS", "TypeScript"],
+    "featured": true
+  },
+  {
+    "title": "Patient Management System",
+    "description": "A simple hospital management app for handling patient records, doctor schedules, and appointments.",
+    "detailedDescription": "A dynamic web app built with PHP to simplify hospital workflows. It helps manage patients, doctors, and appointments, featuring secure logins, role-based access, and user-friendly dashboards for smooth operations.",
+    "image": "/src/assets/project2.jpg",
+    "demoLink": "https://amuhospital.42web.io/",
+    "codeLink": "https://github.com/sofonias-dawit/Hospital-Patient-Management-System",
+    "tags": ["PHP", "MySQL", "Hospital Management"],
+    "featured": false
+  },
+  {
+    "title": "Green Grid Company Website",
+    "description": "A responsive website promoting renewable energy solutions, built with HTML, CSS, and JavaScript.",
+    "detailedDescription": "A responsive website built with HTML, CSS, and JavaScript, showcasing clean design and smooth navigation. It promotes renewable energy services with a modern, eco-friendly look.",
+    "image": "/src/assets/project3.jpg",
+    "demoLink": "https://greengridpower.netlify.app/",
+    "codeLink": "https://github.com/sofonias-dawit/Green-Grid-Power",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "featured": false
+  },
+  {
+    "title": "Architecture Portfolio Website",
+    "description": "A fully responsive and modern personal portfolio website designed for an architecture and interior design student.",
+    "detailedDescription": "A fully responsive and modern personal portfolio website designed for an architecture & interior design student, with a clean UI and smooth animations. Built with React and Tailwind, optimized for both mobile and desktop.",
+    "image": "/src/assets/project4.jpg",
+    "demoLink": "https://filenbar.netlify.app/",
+    "codeLink": "https://github.com/sofonias-dawit/Architecture-Interior-Design-Portfolio",
+    "tags": ["TypeScript", "UI/UX", "Smooth Animations"],
+    "featured": true
+  }
+]
