@@ -1,4 +1,4 @@
-# Portfolio Website - Sofonias Dejene
+# Portfolio Website
 
 A modern, responsive portfolio website showcasing my web development projects, skills, and professional experience. Built with React.js, TypeScript, and Tailwind CSS.
 
@@ -14,11 +14,8 @@ A modern, responsive portfolio website showcasing my web development projects, s
 
 ## 🚀 Live Demo
 
-Visit the live site: [Your Portfolio URL]
+Visit the live site: [https://sofoniasportfolio.netlify.app/]
 
-## 📸 Screenshots
-
-[Add screenshots of your portfolio here]
 
 ## 🛠️ Built With
 
@@ -174,12 +171,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Sofonias Dejene**
+**Sofonias Dawit**
 
-- Portfolio: [Your Website]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourusername](https://twitter.com/yourusername)
+- GitHub: [@sofonias-dawit](https://github.com/sofonias-dawit)
+- Twitter: [@sofoniasdawitt](https://twitter.com/sofoniasdawitt)
 
 ## 🙏 Acknowledgments
 
