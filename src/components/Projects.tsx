@@ -26,6 +26,7 @@ const imageMap: Record<string, string> = {
   '/src/assets/project2.jpg': project2Image,
   '/src/assets/project3.jpg': project3Image,
   '/src/assets/project4.jpg': project4Image,
+  '/src/assets/project4.jpg': project5Image,
 };
 
 const Projects = () => {
