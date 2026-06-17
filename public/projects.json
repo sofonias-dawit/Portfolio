@@ -10,7 +10,7 @@
     "featured": true
   },
     {
-    "title": "ASB Platform - Appointment & Booking System",
+    "title": "ASB Platform - Booking System",
     "description": "A full-stack multi-role booking platform for local hospitality businesses, featuring real-time availability and payment integration.",
     "detailedDescription": "A centralized digital solution for local hotels and lodges from manual paper ledgers to an automated system. Features a decoupled architecture with a React web dashboard, a React Native mobile app, and a Laravel RESTful API, and includes Chapa payment integration",
     "image": "/src/assets/project5.jpg",
