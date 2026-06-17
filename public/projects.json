@@ -13,7 +13,7 @@
     "title": "ASB Platform - Appointment & Booking System",
     "description": "A full-stack multi-role booking platform for local hospitality businesses, featuring real-time availability and payment integration.",
     "detailedDescription": "A centralized digital solution designed to transition local hotels and lodges from manual paper ledgers to an automated system. Features a decoupled architecture with a React web dashboard, a React Native mobile app, and a Laravel RESTful API. Includes Chapa payment integration, role-based access control for 4 distinct user types, and real-time schedule management.",
-    "image": "/src/assets/projectASB.jpg",
+    "image": "/src/assets/ProjectASB.png",
     "demoLink": "https://asbplatform.onrender.com/",
     "codeLink": "https://github.com/sofonias-dawit/",
     "tags": ["React", "Laravel API", "React Native", "Tailwind CSS", "Chapa"],
