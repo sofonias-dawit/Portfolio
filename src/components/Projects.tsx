@@ -8,6 +8,7 @@ import project1Image from '@/assets/project1.jpg';
 import project2Image from '@/assets/project2.jpg';
 import project3Image from '@/assets/project3.jpg';
 import project4Image from '@/assets/project4.jpg';
+import project5Image from '@/assets/project5.jpg';
 
 interface Project {
   title: string;
