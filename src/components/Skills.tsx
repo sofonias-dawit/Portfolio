@@ -12,7 +12,7 @@ const Skills = () => {
     { name: 'HTML5 & CSS3', icon: Globe, level: 94 },
     { name: 'JavaScript', icon: Code2, level: 85 },
     { name: 'React.js', icon: Layers, level: 88 },
-    { name: 'PHP', icon: Code2, level: 86 },
+    { name: 'Laravel', icon: Code2, level: 86 },
     { name: 'MySQL', icon: Database, level: 84 },
     { name: 'Git & GitHub', icon: GitBranch, level: 88 },
     { name: 'Responsive Design', icon: Smartphone, level: 92 },
