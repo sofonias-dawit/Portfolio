@@ -76,7 +76,7 @@ const Hero = () => {
                   <Tooltip>
                     <TooltipTrigger asChild>
                       <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/sofoniasdawit"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-3 rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-smooth hover:scale-110 group animate-slide-in-right"
