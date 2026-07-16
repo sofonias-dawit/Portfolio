@@ -133,7 +133,7 @@ const Contact = () => {
                   </div>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/sofoniasdawit"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-primary/40 hover:bg-primary/5 transition-all duration-300 group"
