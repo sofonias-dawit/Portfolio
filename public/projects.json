@@ -1,5 +1,16 @@
 [
   {
+  "title": "Habesha Espresso - E-commerce Platform",
+  "description": "A production-ready e-commerce platform for a coffee business, supporting retail customers, local wholesale buyers, and international coffee exporters.",
+  "detailedDescription": "Designed and developed a full-stack e-commerce platform for Habesha Espresso, featuring product browsing, shopping cart, secure customer authentication, online payments through Chapa, order management, and email notifications. Supports retail purchases, wholesale inquiries, and international export inquiries through a responsive, modern interface.",
+  "image": "/src/assets/habesha-espresso.jpg",
+  "demoLink": "http://habeshaespresso.com/",
+  "codeLink": "https://github.com/sofonias-dawit/",
+  "tags": [
+    "Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "Chapa", "REST API"],
+  "featured": true
+}
+  {
     "title": "Portfolio Website",
     "description": "My personal portfolio built with React.js, showing my projects and skills in a clean, easy-to-navigate design.",
     "detailedDescription": "A modern, responsive portfolio featuring smooth animations, dark/light theme toggle, and optimized performance. Built with React.js and Tailwind CSS to create an engaging user experience.",
@@ -9,6 +20,16 @@
     "tags": ["React.js", "Tailwind CSS", "TypeScript"],
     "featured": true
   },
+  {
+    "title": "Architecture Portfolio Website",
+    "description": "A fully responsive and modern personal portfolio website designed for an architecture and interior design student.",
+    "detailedDescription": "A fully responsive and modern personal portfolio website designed for an architecture & interior design student, with a clean UI and smooth animations. Built with React and Tailwind, optimized for both mobile and desktop.",
+    "image": "/src/assets/project4.jpg",
+    "demoLink": "https://filenbar.netlify.app/",
+    "codeLink": "https://github.com/sofonias-dawit/Architecture-Interior-Design-Portfolio",
+    "tags": ["TypeScript", "UI/UX", "Smooth Animations"],
+    "featured": true
+  }
     {
     "title": "ASB Platform - Booking System",
     "description": "A full-stack multi-role booking platform for local hospitality businesses, featuring real-time availability and payment integration.",
@@ -40,14 +61,4 @@
     "tags": ["HTML", "CSS", "JavaScript"],
     "featured": false
   },
-  {
-    "title": "Architecture Portfolio Website",
-    "description": "A fully responsive and modern personal portfolio website designed for an architecture and interior design student.",
-    "detailedDescription": "A fully responsive and modern personal portfolio website designed for an architecture & interior design student, with a clean UI and smooth animations. Built with React and Tailwind, optimized for both mobile and desktop.",
-    "image": "/src/assets/project4.jpg",
-    "demoLink": "https://filenbar.netlify.app/",
-    "codeLink": "https://github.com/sofonias-dawit/Architecture-Interior-Design-Portfolio",
-    "tags": ["TypeScript", "UI/UX", "Smooth Animations"],
-    "featured": true
-  }
 ]
