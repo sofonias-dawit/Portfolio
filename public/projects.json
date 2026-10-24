@@ -9,7 +9,7 @@
   "tags": [
     "Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "Chapa", "REST API"],
   "featured": true
-}
+},
   {
     "title": "Portfolio Website",
     "description": "My personal portfolio built with React.js, showing my projects and skills in a clean, easy-to-navigate design.",
@@ -29,7 +29,7 @@
     "codeLink": "https://github.com/sofonias-dawit/Architecture-Interior-Design-Portfolio",
     "tags": ["TypeScript", "UI/UX", "Smooth Animations"],
     "featured": true
-  }
+  },
     {
     "title": "ASB Platform - Booking System",
     "description": "A full-stack multi-role booking platform for local hospitality businesses, featuring real-time availability and payment integration.",
