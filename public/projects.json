@@ -17,7 +17,7 @@
     "demoLink": "https://sofonias.netlify.app/",
     "codeLink": "https://github.com/sofonias-dawit/My-portfolio",
     "tags": ["React.js", "Tailwind CSS", "TypeScript"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "Architecture Portfolio Website",
