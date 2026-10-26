@@ -9,7 +9,7 @@ import project2Image from '@/assets/project2.jpg';
 import project3Image from '@/assets/project3.jpg';
 import project4Image from '@/assets/project4.jpg';
 import project5Image from '@/assets/project5.jpg';
-import habesha-espressoImage from '@/assets/habesha-espresso.jpg';
+import project6Image from '@/assets/project6.jpg';
 
 interface Project {
   title: string;
@@ -28,7 +28,7 @@ const imageMap: Record<string, string> = {
   '/src/assets/project3.jpg': project3Image,
   '/src/assets/project4.jpg': project4Image,
   '/src/assets/project5.jpg': project5Image,
-  '/src/assets/habesha-espresso.jpg': habesha-espressoImage,
+  '/src/assets/project6.jpg': project6Image,
 };
 
 const Projects = () => {
