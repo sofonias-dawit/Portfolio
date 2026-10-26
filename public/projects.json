@@ -3,7 +3,7 @@
   "title": "Habesha Espresso - E-commerce Platform",
   "description": "A production-ready e-commerce platform for a coffee business, supporting retail customers, local wholesale buyers, and international coffee exporters.",
   "detailedDescription": "Designed and developed a full-stack e-commerce platform, featuring product browsing, shopping cart, online payments, order management, and email notifications. Supports retail purchases, wholesale inquiries, and international export inquiries through a modern interface.",
-  "image": "/src/assets/habesha-espresso.jpg",
+  "image": "/src/assets/project6.jpg",
   "demoLink": "http://habeshaespresso.com/",
   "codeLink": "https://github.com/sofonias-dawit/",
   "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "Chapa", "REST API"],
