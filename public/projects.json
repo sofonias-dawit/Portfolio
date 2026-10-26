@@ -9,26 +9,6 @@
   "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "Chapa", "REST API"],
   "featured": true
 },
-  {
-    "title": "Portfolio Website",
-    "description": "My personal portfolio built with React.js, showing my projects and skills in a clean, easy-to-navigate design.",
-    "detailedDescription": "A modern, responsive portfolio featuring smooth animations, dark/light theme toggle, and optimized performance. Built with React.js and Tailwind CSS to create an engaging user experience.",
-    "image": "/src/assets/project1.jpg",
-    "demoLink": "https://sofonias.netlify.app/",
-    "codeLink": "https://github.com/sofonias-dawit/My-portfolio",
-    "tags": ["React.js", "Tailwind CSS", "TypeScript"],
-    "featured": false
-  },
-  {
-    "title": "Architecture Portfolio Website",
-    "description": "A fully responsive and modern personal portfolio website designed for an architecture and interior design student.",
-    "detailedDescription": "A fully responsive and modern personal portfolio website designed for an architecture & interior design student, with a clean UI and smooth animations. Built with React and Tailwind, optimized for both mobile and desktop.",
-    "image": "/src/assets/project4.jpg",
-    "demoLink": "https://filenbar.netlify.app/",
-    "codeLink": "https://github.com/sofonias-dawit/Architecture-Interior-Design-Portfolio",
-    "tags": ["TypeScript", "UI/UX", "Smooth Animations"],
-    "featured": true
-  },
     {
     "title": "ASB Platform - Booking System",
     "description": "A full-stack multi-role booking platform for local hospitality businesses, featuring real-time availability and payment integration.",
@@ -39,7 +19,16 @@
     "tags": ["React", "Laravel API", "React Native", "Tailwind CSS", "Chapa"],
     "featured": true
   },
-
+{
+    "title": "Architecture Portfolio Website",
+    "description": "A fully responsive and modern personal portfolio website designed for an architecture and interior design student.",
+    "detailedDescription": "A fully responsive and modern personal portfolio website designed for an architecture & interior design student, with a clean UI and smooth animations. Built with React and Tailwind, optimized for both mobile and desktop.",
+    "image": "/src/assets/project4.jpg",
+    "demoLink": "https://filenbar.netlify.app/",
+    "codeLink": "https://github.com/sofonias-dawit/Architecture-Interior-Design-Portfolio",
+    "tags": ["TypeScript", "UI/UX", "Smooth Animations"],
+    "featured": true
+  },
   {
     "title": "Patient Management System",
     "description": "A simple hospital management app for handling patient records, doctor schedules, and appointments.",
@@ -48,6 +37,16 @@
     "demoLink": "https://amuhospital.42web.io/",
     "codeLink": "https://github.com/sofonias-dawit/Hospital-Patient-Management-System",
     "tags": ["PHP", "MySQL", "Hospital Management"],
+    "featured": false
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "My personal portfolio built with React.js, showing my projects and skills in a clean, easy-to-navigate design.",
+    "detailedDescription": "A modern, responsive portfolio featuring smooth animations, dark/light theme toggle, and optimized performance. Built with React.js and Tailwind CSS to create an engaging user experience.",
+    "image": "/src/assets/project1.jpg",
+    "demoLink": "https://sofonias.netlify.app/",
+    "codeLink": "https://github.com/sofonias-dawit/My-portfolio",
+    "tags": ["React.js", "Tailwind CSS", "TypeScript"],
     "featured": false
   },
   {
