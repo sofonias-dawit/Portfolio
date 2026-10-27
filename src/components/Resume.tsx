@@ -33,9 +33,9 @@ const Resume = () => {
               <div className="flex-1 min-w-0">
                 <h3 className="text-xl sm:text-2xl font-bold mb-2">Experience</h3>
                 <h4 className="text-lg sm:text-xl font-semibold text-primary mb-1">
-                  Web Developer Intern
+                  Web Developer
                 </h4>
-                <p className="text-muted-foreground">Self-employed</p>
+                <p className="text-muted-foreground">Freelance</p>
               </div>
             </div>
           </Card>
