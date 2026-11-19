@@ -1,186 +1,172 @@
-# Portfolio Website
+# Sofonias Dawit — Full-Stack Developer Portfolio
 
-A modern, responsive portfolio website showcasing my web development projects, skills, and professional experience. Built with React.js, TypeScript, and Tailwind CSS.
+A modern, high-performance developer portfolio showcasing full-stack client platforms, web architectures, technical skills, and professional experience.
 
-## 🌟 Features
+[![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 
-- **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
-- **Dark/Light Theme** - Toggle between dark and light modes for comfortable viewing
-- **Smooth Animations** - Engaging animations and transitions throughout the site
-- **Dynamic Projects** - Projects loaded from JSON for easy content management
-- **Interactive UI** - Modern, user-friendly interface with hover effects and transitions
-- **SEO Optimized** - Semantic HTML and proper meta tags for better search visibility
-- **Fast Performance** - Optimized loading and rendering with React and Vite
+---
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://sofoniasportfolio.netlify.app/]
+**Visit the live website:** [https://sofoniasportfolio.netlify.app/](https://sofoniasportfolio.netlify.app/)
 
+---
+
+## 🌟 Key Features
+
+- **Spring-Physics Motion:** Fluid, tactile animations powered by `framer-motion` (staggered hero entrance, auto-fading scroll hint, spring card hover states).
+- **Responsive Architecture:** Pixel-perfect layout across mobile, tablet, and widescreen displays.
+- **Accessible Dark & Light Theming:** Seamless theme toggling powered by `next-themes` with custom HSL design tokens.
+- **Production Project Case Studies:** Interactive carousel and modal architecture flows showcasing metrics, system dataflow, and tech stacks.
+- **Type-Safe Content Architecture:** Centralized project and skill definitions in TypeScript (`src/data/projectsData.ts`) with zero runtime fetch delay.
+- **SEO & Social Sharing Ready:** Semantic HTML5, dynamic Open Graph cards, Twitter metadata, and Schema.org JSON-LD structured data.
+- **Hardware-Accelerated Performance:** Sub-second load times and smooth 60–120 FPS transitions without layout repaints.
+
+---
 
 ## 🛠️ Built With
 
-- **Frontend Framework:** React 18.3.1
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **UI Components:** shadcn-ui
-- **Build Tool:** Vite
+- **Core:** React 18.3, TypeScript
+- **Styling:** Tailwind CSS, PostCSS
+- **Animation Engine:** Framer Motion 12
+- **UI Primitives:** Radix UI (`@radix-ui/react-*`), shadcn/ui
 - **Icons:** Lucide React
-- **Theme Management:** next-themes
-- **Routing:** React Router DOM
-- **State Management:** TanStack Query
+- **Carousel Engine:** Embla Carousel (`embla-carousel-react`)
+- **Theme Management:** `next-themes`
+- **Build Tooling:** Vite, SWC
 
-## 📋 Prerequisites
-
-Before running this project, make sure you have the following installed:
-
-- Node.js (v18 or higher)
-- npm or yarn package manager
+---
 
 ## 🔧 Installation & Setup
 
-1. **Clone the repository**
+1. **Clone the repository:**
    ```bash
-   git clone <YOUR_GIT_URL>
-   cd <YOUR_PROJECT_NAME>
+   git clone https://github.com/sofonias-dawit/Portfolio.git
+   cd Portfolio
    ```
 
-2. **Install dependencies**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+3. **Start the local development server:**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173` (or the port shown in your terminal)
+4. **Open your browser:**
+   Navigate to `http://localhost:5173` (or the port specified in your terminal).
+
+---
 
 ## 📁 Project Structure
 
 ```
-portfolio/
-├── public/
-│   ├── projects.json      # Projects data file (easily editable)
-│   └── robots.txt
+Portfolio/
+├── public/                # Static assets, favicons, sitemap & robots.txt
 ├── src/
-│   ├── assets/            # Images and static files
-│   ├── components/        # React components
-│   │   ├── About.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Navigation.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Resume.tsx
-│   │   ├── Skills.tsx
-│   │   └── ui/           # Reusable UI components
-│   ├── pages/            # Page components
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utility functions
-│   ├── App.tsx           # Main app component
-│   ├── main.tsx          # App entry point
-│   └── index.css         # Global styles & design tokens
-├── index.html
-├── tailwind.config.ts    # Tailwind configuration
-├── vite.config.ts        # Vite configuration
-└── package.json
+│   ├── assets/            # Project images and profile photography
+│   ├── components/        # Feature and layout components
+│   │   ├── ui/            # Accessible Radix / shadcn UI primitives
+│   │   ├── About.tsx      # Engineering narrative & technical pillars
+│   │   ├── Contact.tsx    # Interactive inquiry form & channels
+│   │   ├── Footer.tsx     # Location, timezone indicator & copyright
+│   │   ├── Hero.tsx       # Animated entrance, bio, CTA & scroll hint
+│   │   ├── Navigation.tsx # Floating segmented navbar & mobile sheet
+│   │   ├── Projects.tsx   # Categorized showcase, carousel & modal case studies
+│   │   ├── Resume.tsx     # Career experience, education & CV link
+│   │   ├── ScrollReveal.tsx # Viewport trigger wrapper with reduced-motion support
+│   │   └── Skills.tsx     # Stack categorizations & tool badges
+│   ├── data/
+│   │   └── projectsData.ts # Single source of truth for all projects (Type-safe)
+│   ├── hooks/             # Custom React hooks (use-toast, use-mobile)
+│   ├── lib/               # Utility functions (cn / clsx merge)
+│   ├── pages/             # Page views (Index, NotFound)
+│   ├── App.tsx            # Application root
+│   ├── main.tsx           # React DOM hydration
+│   └── index.css          # Design system tokens & global styling
+├── index.html             # HTML entry point, fonts & SEO metadata
+├── tailwind.config.ts     # Tailwind theme extensions & design palette
+└── vite.config.ts         # Vite build configuration & path aliases
 ```
-
-## 🎨 Customization
-
-### Adding/Editing Projects
-
-Projects are managed through the `public/projects.json` file. Simply edit this file to update your portfolio:
-
-```json
-{
-  "title": "Your Project Name",
-  "description": "Short description",
-  "detailedDescription": "Detailed description of your project",
-  "image": "/src/assets/your-image.jpg",
-  "demoLink": "https://your-demo-link.com",
-  "codeLink": "https://github.com/your-repo",
-  "tags": ["React.js", "TypeScript", "API"],
-  "featured": true
-}
-```
-
-### Updating Personal Information
-
-- **Hero Section:** Edit `src/components/Hero.tsx`
-- **About Section:** Edit `src/components/About.tsx`
-- **Skills Section:** Edit `src/components/Skills.tsx`
-- **Contact Section:** Edit `src/components/Contact.tsx`
-
-### Changing Theme Colors
-
-Edit the CSS variables in `src/index.css` to customize your color scheme:
-
-```css
-:root {
-  --primary: 189 94% 43%;      /* Main brand color */
-  --secondary: 240 5% 84%;     /* Secondary color */
-  /* ... other colors */
-}
-```
-
-## 🚀 Deployment
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-This creates an optimized production build in the `dist` folder.
-
-### Deploy to Hosting Platforms
-
-#### Vercel
-```bash
-vercel --prod
-```
-
-#### Netlify
-```bash
-netlify deploy --prod
-```
-
-#### GitHub Pages
-```bash
-npm run build
-# Push the dist folder to your gh-pages branch
-```
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint to check code quality
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-## 📄 License
-
-This project is open source.
-## 👤 Author
-
-**Sofonias Dawit**
-
-- GitHub: [@sofonias-dawit](https://github.com/sofonias-dawit)
-- Twitter: [@sofoniasdawitt](https://twitter.com/sofoniasdawitt)
-
-## 🙏 Acknowledgments
-
-- Design inspiration from modern portfolio trends
-- UI components from [shadcn-ui](https://ui.shadcn.com/)
-- Icons from [Lucide Icons](https://lucide.dev/)
 
 ---
 
-⭐ If you like this project, please give it a star on GitHub!
+## 🎨 Managing Projects
+
+Projects are managed directly in **`src/data/projectsData.ts`** with full TypeScript autocomplete:
+
+```ts
+import myProjectImg from '@/assets/my-project.jpg';
+
+export const projects: Project[] = [
+  {
+    title: "Project Title",
+    category: "fullstack", // 'client' | 'fullstack' | 'frontend'
+    categories: ["client", "fullstack"],
+    badge: "E-Commerce",
+    client: "Client Name",
+    role: "Full-Stack Developer",
+    description: "Brief summary shown on the card.",
+    detailedDescription: "In-depth explanation displayed inside the case study modal.",
+    metrics: [
+      "100% Automated Checkout Flow",
+      "Sub-200ms API Latency"
+    ],
+    architecture: [
+      "React Client",
+      "RESTful API",
+      "PostgreSQL"
+    ],
+    highlights: [
+      "Payment Gateway Integration",
+      "Automated Order Notifications"
+    ],
+    image: myProjectImg,
+    demoLink: "https://example.com",
+    codeLink: "https://github.com/sofonias-dawit/example",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    featured: true
+  },
+  // ... more projects
+];
+```
+
+*All category counts on the project filter tabs (**All Projects**, **Client Work**, **Full-Stack**, **Frontend**) update automatically based on your data.*
+
+---
+
+## 🚀 Production Build & Deployment
+
+```bash
+# Generate optimized production build
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+### Hosting Options:
+- **Vercel:** Auto-deploys via Git (`Build Command: npm run build`, `Output Directory: dist`).
+- **Netlify:** Pre-configured with SPA routing via `public/_redirects`.
+
+---
+
+## 👤 Author
+
+**Sofonias Dawit** — Full-Stack Developer (Addis Ababa, Ethiopia)
+
+- **GitHub:** [@sofonias-dawit](https://github.com/sofonias-dawit)
+- **LinkedIn:** [sofoniasdawit](https://www.linkedin.com/in/sofoniasdawit/)
+- **Email:** [sofoniasdawit00@gmail.com](mailto:sofoniasdawit00@gmail.com)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
