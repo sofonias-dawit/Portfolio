@@ -57,7 +57,7 @@ const Footer = () => {
                 <Send className="h-4 w-4" />
               </a>
               <a
-                href="https://wa.me/251900000000"
+                href="https://wa.me/251923490535"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
