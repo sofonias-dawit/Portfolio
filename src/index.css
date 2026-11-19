@@ -2,106 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 220 15% 95%;
-    --foreground: 215 25% 27%;
+    /* Deep Ocean & Electric Slate - Light Mode */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
     --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 189 100% 43%;
+    --primary: 192 90% 30%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 98%;
+    --secondary: 210 30% 94%;
     --secondary-foreground: 222 47% 11%;
 
-    --muted: 210 40% 98%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 210 30% 94%;
+    --muted-foreground: 215 16% 45%;
 
-    --accent: 210 40% 98%;
+    --accent: 210 30% 94%;
     --accent-foreground: 222 47% 11%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 189 100% 43%;
+    --border: 214 28% 88%;
+    --input: 214 28% 88%;
+    --ring: 192 90% 30%;
 
-    --radius: 0.5rem;
+    --radius: 0.625rem;
     
-    --gradient-primary: linear-gradient(135deg, hsl(189 100% 43%), hsl(190 100% 32%));
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 100%), hsl(210 40% 98%));
-    --shadow-glow: 0 10px 40px hsl(189 100% 43% / 0.25);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --gradient-primary: linear-gradient(135deg, hsl(192 90% 30%), hsl(196 85% 24%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 100%), hsl(210 30% 96%));
+    --shadow-glow: 0 10px 30px hsl(192 90% 30% / 0.2);
+    --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .dark {
-    --background: 222 47% 8%;
-    --foreground: 210 40% 98%;
+    /* Deep Ocean & Electric Slate - Dark Mode */
+    --background: 222 47% 6.5%; /* Deep midnight slate */
+    --foreground: 210 40% 98%; /* Crisp optical white */
 
-    --card: 220 40% 12%;
+    --card: 222 40% 9.5%; /* Deep slate card surface */
     --card-foreground: 210 40% 98%;
 
-    --popover: 220 40% 12%;
+    --popover: 222 40% 9.5%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 189 94% 43%;
+    --primary: 192 85% 36%; /* Rich oceanic teal/cyan */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 40% 15%;
+    --secondary: 222 35% 13%; /* Elegant interactive surface */
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 35% 15%;
-    --muted-foreground: 218 11% 70%;
+    --muted: 222 35% 13%;
+    --muted-foreground: 215 20% 65%; /* Readable slate text */
 
-    --accent: 220 40% 15%;
+    --accent: 222 35% 15%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 40% 18%;
-    --input: 220 40% 15%;
-    --ring: 189 94% 43%;
+    --border: 220 32% 16%; /* Hairline slate border */
+    --input: 220 32% 16%;
+    --ring: 192 85% 36%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(189 94% 43%), hsl(189 94% 53%));
-    --gradient-hero: linear-gradient(135deg, hsl(222 47% 8%), hsl(220 40% 12%));
-    --shadow-glow: 0 10px 40px hsl(189 94% 43% / 0.35);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    
-    --sidebar-background: 220 26% 8%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 189 94% 43%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 20% 16%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 220 20% 18%;
-    --sidebar-ring: 189 94% 43%;
+    --gradient-primary: linear-gradient(135deg, hsl(192 85% 36%), hsl(188 80% 44%));
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 6.5%), hsl(222 40% 10%));
+    --shadow-glow: 0 10px 35px hsl(192 85% 36% / 0.28);
+    --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   }
 }
 
@@ -110,12 +83,17 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground font-['Poppins',sans-serif];
-  }
-  
   html {
-    scroll-behavior: smooth;
+    color-scheme: dark light;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-foreground selection:text-background;
+  }
+
+  /* Headings with tight optical tracking */
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
   }
 }
 
@@ -138,8 +116,50 @@ All colors MUST be HSL.
   .shadow-glow {
     box-shadow: var(--shadow-glow);
   }
-  
+
+  /* Subtle physical top-edge highlight and smooth lift for cards */
+  .card-surface {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+    transition: border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+                box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+                transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .card-surface:hover {
+    box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.08), 
+                0 6px 12px -4px rgba(0, 0, 0, 0.04);
+  }
+
+  .dark .card-surface {
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .dark .card-surface:hover {
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 
+                0 12px 32px -8px rgba(0, 0, 0, 0.5);
+  }
+
   .transition-smooth {
     transition: var(--transition-smooth);
+  }
+
+  /* Refined, quiet metallic heading */
+  .heading-metallic {
+    background: linear-gradient(180deg, hsl(var(--foreground)) 30%, hsl(var(--muted-foreground)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Accessibility: Respect system motion reduction preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

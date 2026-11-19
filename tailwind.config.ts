@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -64,7 +65,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
       keyframes: {
         "accordion-down": {
@@ -99,9 +101,17 @@ export default {
           "0%": { transform: "scale(0.95)", opacity: "0" },
           "100%": { transform: "scale(1)", opacity: "1" },
         },
+        "fade-in-hero-content": {
+          "0%": { opacity: "0", transform: "translateY(8px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in-hero-photo": {
+          "0%": { opacity: "0", transform: "scale(0.98)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
         "glow": {
-          "0%, 100%": { boxShadow: "0 10px 30px hsl(189 94% 43% / 0.2)" },
-          "50%": { boxShadow: "0 10px 50px hsl(189 94% 43% / 0.4)" },
+          "0%, 100%": { boxShadow: "0 10px 30px hsl(192 85% 36% / 0.2)" },
+          "50%": { boxShadow: "0 10px 45px hsl(192 85% 36% / 0.35)" },
         },
         "progress": {
           "0%": { width: "0%" },
@@ -117,10 +127,14 @@ export default {
         "slide-in-right": "slide-in-right 0.6s ease-out",
         "slide-in-left": "slide-in-left 0.6s ease-out",
         "scale-in": "scale-in 0.4s ease-out",
+        "nav-entrance": "fade-in 0.4s ease-out both",
+        "hero-content": "fade-in-hero-content 0.65s cubic-bezier(0.16, 1, 0.3, 1) both",
+        "hero-photo": "fade-in-hero-photo 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both",
+        "hero-scroll": "fade-in-hero-content 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both",
         "glow": "glow 3s ease-in-out infinite",
         "progress": "progress 1.5s ease-out",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;
