@@ -12,7 +12,7 @@ A modern, high-performance developer portfolio showcasing full-stack client plat
 
 ## 🚀 Live Demo
 
-**Visit the live website:** [https://sofoniasportfolio.netlify.app/](https://sofoniasportfolio.netlify.app/)
+**Visit the live website:** [https://sofonias.vercel.app/](https://sofonias.vercel.app/)
 
 ---
 
